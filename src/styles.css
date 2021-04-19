@@ -1,0 +1,338 @@
+* {
+  line-height: 1.5em;
+}
+
+blockquote {
+  margin: 0;
+}
+
+blockquote {
+  max-width: 400px;
+}
+
+a {
+  display: inline-block;
+  padding: 0 0.7rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: #4ea6ef;
+  font-weight: bold;
+  background: #ddd;
+}
+
+a:hover {
+  background: #ccc;
+}
+
+p {
+  max-width: 75%;
+  font-size: 1.1em;
+}
+
+strong {
+  font-weight: 800;
+}
+
+span.missing {
+  color: red;
+}
+
+body {
+  margin: 0px;
+  padding: 0rem;
+  background: url(/img/dust_scratches.png) repeat 0 0;
+  font-family: "Monserrat", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+
+.intro-columns {
+  display: flex;
+  flex-direction: row;
+  max-width: 90%;
+  margin: 0 auto 2rem auto;
+}
+
+.intro-columns h2 {
+  margin: 1rem auto;
+}
+
+.red-column h2 {
+  text-align: center;
+  margin: 5px;
+  background-color: rgba(221, 112, 78, 0.3);
+  border-radius: 25px;
+}
+
+.green-column h2 {
+  text-align: center;
+  margin: 5px;
+  background-color: rgba(102, 209, 118, 0.3);
+  border-radius: 25px;
+}
+.red-column h4 span {
+  padding: 0.3rem 0.5rem;
+  background-color: rgba(221, 112, 78, 0.3);
+  border-radius: 25px;
+}
+
+.green-column h4 span {
+  padding: 0.3rem 0.5rem;
+  background-color: rgba(102, 209, 118, 0.3);
+  border-radius: 25px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.column p,
+.column h4 {
+  margin-left: 5rem;
+}
+
+.column h4 {
+  margin-bottom: 0px;
+}
+
+.column p {
+  margin-top: 0.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.info {
+  font-size: 0.8em;
+}
+.subH {
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+.point {
+  fill: rgb(236, 144, 39);
+  stroke-width: 2px;
+  stroke: white;
+  transition: fill 100ms linear;
+}
+
+.point:hover {
+  fill: #056839;
+}
+
+.sections {
+  box-sizing: border-box;
+  width: 40%;
+}
+
+header {
+  border-bottom: 5px solid #eee;
+  padding-bottom: 2rem;
+  margin: 1rem 0 3rem 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.introduction_content {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.introduction_text em {
+  color: #333;
+}
+
+.int_center {
+  margin: 0 auto 1rem auto;
+}
+
+.introduction_text blockquote {
+  margin-left: 4rem;
+  font-style: italic;
+}
+
+.introduction_content img {
+  width: 100%;
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+main {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.sections {
+  margin-left: 3rem;
+}
+
+.sections p {
+  max-width: 100%;
+}
+
+section {
+  margin-bottom: 10rem;
+  padding: 2rem 2.5rem;
+  background: #eee;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px 5px #aaa;
+}
+
+section .quote {
+  margin-top: 1rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  background: #e7e7e7;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+section .quote p {
+  margin: 0.5rem;
+}
+
+/* .quote span {
+  font-weight: bold;
+} */
+
+.svg-container {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+svg {
+  width: 100%;
+  transform: scale(1.2);
+}
+
+.continent {
+  fill: #f0e4dd;
+  stroke: #e0cabc;
+  stroke-width: 0.4;
+}
+
+.county {
+  stroke-width: 6;
+  stroke-linejoin: bevel;
+  z-index: -1;
+}
+
+.shape {
+  transition: fill 1s ease-in-out;
+}
+
+.poppedOut .county:hover {
+  opacity: 1;
+}
+
+.county:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.circles {
+  fill: #3c373d;
+}
+
+.labels {
+  font-family: sans-serif;
+  font-size: 11px;
+  fill: #3c373d;
+}
+
+.boring {
+  fill: grey;
+}
+
+.AA {
+  fill: url("#AA");
+}
+.AB {
+  fill: url("#AB");
+}
+.AC {
+  fill: url("#AC");
+}
+.BA {
+  fill: url("#BA");
+}
+.BB {
+  fill: url("#BB");
+}
+.BC {
+  fill: url("#BC");
+}
+.CA {
+  fill: url("#CA");
+}
+.CB {
+  fill: url("#CB");
+}
+.CC {
+  fill: url("#CC");
+}
+
+.AA.tex,
+.BA.tex,
+.CA.tex {
+  fill: url("#Atex") !important;
+}
+
+.AB.tex,
+.BB.tex,
+.CB.tex {
+  fill: url("#Btex") !important;
+}
+
+.AC.tex,
+.BC.tex,
+.CC.tex {
+  fill: url("#Ctex") !important;
+}
+
+.legend {
+  box-sizing: border-box;
+  width: 30%;
+  padding: 1rem;
+}
+
+img {
+  position: relative;
+  width: 100%;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 1rem;
+  font: 12px sans-serif;
+  background: #ffffff99;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  backdrop-filter: blur(7px);
+  box-shadow: 0 0 10px 10px #00000011;
+}
