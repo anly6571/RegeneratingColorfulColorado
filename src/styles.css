@@ -40,7 +40,7 @@ span.missing {
 body {
   margin: 0px;
   padding: 0rem;
-  background: url(/img/dust_scratches.png) repeat 0 0;
+  background: url(./img/dust_scratches.png) repeat 0 0;
   font-family: "Monserrat", sans-serif;
 }
 
