@@ -1,6 +1,6 @@
 // import * as d3 from "d3";
 // import "./styles.css";
-import * as scrollTriggers from "./scrollTriggers";
+import * as scrollTriggers from "./scrollTriggers.js";
 import { loadFlowerData, ready } from "./flowers.js";
 
 // Loading Data
